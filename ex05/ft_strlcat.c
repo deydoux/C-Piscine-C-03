@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 15:10:37 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/09 20:24:01 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/10 12:30:54 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ unsigned int	ft_strlen(char *str)
 	return (i);
 }
 
-unsigned int	*ft_strlcat(char *dest, char *src, unsigned int size)
+unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	unsigned int	i;
 	unsigned int	end;
