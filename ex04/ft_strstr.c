@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 18:10:40 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/11 20:45:26 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/13 09:32:50 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ char	*ft_strstr(char *str, char *to_find)
 			return (str + i);
 		i++;
 	}
-	return ('\0');
+	return (0);
 }
